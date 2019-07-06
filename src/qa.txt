@@ -1,0 +1,6 @@
+What is my name?
+James
+What is my age?
+19
+Where do I live?
+United Kingdom
