@@ -15,7 +15,7 @@ public class Cards {
     }
 
     public void loadArr() throws Exception {
-        File file = new File("D:\\JavaProjects\\src\\qa.txt");
+        File file = new File("D:\\JavaProjectApp\\src\\qa.txt");
         Scanner information = new Scanner(file);
         String q;
         String a;
@@ -35,15 +35,15 @@ public class Cards {
         f.setQuestion(q);
         f.setAnswer(a);
         arr.add(f);
-            File file = new File("D:\\JavaProjects\\src\\qa.txt");
-            FileWriter fr = new FileWriter(file, true);
-            BufferedWriter br = new BufferedWriter(fr);
-            PrintWriter pw = new PrintWriter(br);
-            pw.println(q);
-            pw.println(a);
-            pw.close();
-            br.close();
-            fr.close();
+        File file = new File("D:\\JavaProjects\\src\\qa.txt");
+        FileWriter fr = new FileWriter(file, true);
+        BufferedWriter br = new BufferedWriter(fr);
+        PrintWriter pw = new PrintWriter(br);
+        pw.println(q);
+        pw.println(a);
+        pw.close();
+        br.close();
+        fr.close();
     }
 
     public Fact getFact(int i) {
