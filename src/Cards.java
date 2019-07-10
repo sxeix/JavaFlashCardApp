@@ -60,7 +60,7 @@ public class Cards {
 
     public Fact getFact() {
         Random r = new Random();
-        return arr.get(r.nextInt(arr.size()-1));
+        return arr.get(r.nextInt(arr.size()));
     }
 
     public void displayFacts() {
